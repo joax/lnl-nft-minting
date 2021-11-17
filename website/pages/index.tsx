@@ -17,7 +17,7 @@ import MintingContract from "../MintingContract.json";
  * by hardhat when we ran deploy js. We use the abi key from this json
  * file to make requests against our contrac.
  */
-const CONTRACT_ADDRESS = "0x17c75F7cB4E66d7282DF004a3CA8fE519DeAf54A";
+const CONTRACT_ADDRESS = "0xb1dD812E1CBd20f4bd91995da5eA31E18EAbb8A8";
 const abi = MintingContract.abi;
 
 const Home: NextPage = () => {
