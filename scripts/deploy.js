@@ -25,7 +25,7 @@ async function main() {
    * We can pass baseTokenURI string param the MintingContract constructor requires
    * in this deploy function.
    */
-  const token = await contract.deploy('https://website-kzspirq6d-ximxim.vercel.app/api/tokens/');
+  const token = await contract.deploy('https://joaxap-eth-nft-mint.vercel.app/api/tokens/');
 
   await token.deployed();
 
