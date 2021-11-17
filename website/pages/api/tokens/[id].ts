@@ -34,7 +34,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
         }
       ],
       "description": "Business Card NFT - joaxap.eth",
-      "image": "https://gateway.pinata.cloud/ipfs/QmSS3REEcAqmCTMyUP6hpQYhz67WjXjjbi6QGc43PLq414",
+      "image": "https://gateway.pinata.cloud/ipfs/QmdpG92bzgXU8nC8g7NhD6N6LjwKZDojT3tzxxMTB9AQ5P",
       "name": `joaxap.eth Business Card #${tokenId}`
     }
   );
