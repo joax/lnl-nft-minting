@@ -84,9 +84,9 @@ contract MintingContract is ERC721URIStorage {
     uri: https:localhost:3000/api/tokens for local testing and https://somedomain.com/api/tokens
     for production.
     */
-    constructor(string memory baseTokenURI) ERC721 ("SquareNFT", "SQUARE") {
+    constructor(string memory baseTokenURI) ERC721 ("Joaxap.eth Card Token", "JOAX") {
         _baseTokenURI = baseTokenURI;
-        console.log("This is my NFT contract. Woah!");
+        console.log("Joaxap.eth Business Card NFT");
     }
 
     /*
