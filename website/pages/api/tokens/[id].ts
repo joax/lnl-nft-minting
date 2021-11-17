@@ -17,10 +17,28 @@ import type { NextApiRequest, NextApiResponse } from "next";
 async function handler(req: NextApiRequest, res: NextApiResponse) {
   const tokenId = req.query.id as string;
 
-  res.status(200).json({
-    image: `https://media.giphy.com/media/X7IoVUJXtO3wk/giphy.gif`,
-    name: `Giphy #${tokenId}`,
-  });
+  res.status(200).json(
+    {
+      "attributes": [
+        {
+          "trait_type": "Name",
+          "value": "Joaquin Ayuso de Paul"
+        },
+        {
+          "trait_type": "Email",
+          "value": "joaxap@gmail.com"
+        },
+        {
+          "trait_type": "Website",
+          "value": "https://joaxap.eth.link"  
+        }
+      ],
+      "description": "Business Card NFT - joaxap.eth",
+      "image": "https://gateway.pinata.cloud/ipfs/QmSS3REEcAqmCTMyUP6hpQYhz67WjXjjbi6QGc43PLq414",
+      "name": `joaxap.eth Business Card #${tokenId}`
+    }
+  );
 }
 
 export default handler;
+
